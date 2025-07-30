@@ -1,10 +1,17 @@
 import './App.css'
-import Shop from './assets/Shop'
+import {BrowserRouter as Router ,Routes,Route} from  "react-router-dom";
+import HomeThree from './Pages/HomeThree';
+
 function App() {
 
   return (
     <>
-      <Shop />
+    
+    <Router>
+      <Routes>
+        <Route path='/' element={<HomeThree/>}/>
+      </Routes>
+    </Router>
     </>
   )
 }
