@@ -1,11 +1,8 @@
-import './App.css'
-import Shop from './assets/Shop'
-function App() {
+import React from 'react'
 
+const App = () => {
   return (
-    <>
-      <Shop />
-    </>
+    <div>App</div>
   )
 }
 
