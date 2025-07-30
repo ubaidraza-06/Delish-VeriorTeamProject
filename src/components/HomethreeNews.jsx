@@ -62,9 +62,9 @@ return(
 
       {/* News Cards Section */}
       <div className="flex-grow flex justify-center px-4 sm:px-6 lg:px-8 pb-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl w-full">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-2 max-w-7xl w-full">
           {/* News Card 1 */}
-          <div className="bg-white  shadow-md overflow-hidden border border-gray-200">
+          <div className="bg-white  md:col-span-1  shadow-md overflow-hidden border border-gray-200">
             <div className="w-full h-48 bg-[#D9D9D9]">
               {/* Placeholder for image */}
             </div>
@@ -90,11 +90,11 @@ return(
           </div>
 
           {/* News Card 2 */}
-          <div className="bg-white  shadow-md overflow-hidden border border-gray-200">
+          <div className="bg-white md:col-span-2 md:ml-9 shadow-md overflow-hidden border border-gray-200">
             <div className="w-full h-48 bg-[#D9D9D9]">
               {/* Placeholder for image */}
             </div>
-            <div className="p-6">
+            <div className="p-6 ">
               <div className="flex items-center space-x-4 text-sm text-gray-600 mb-3">
                 <div className="flex items-center space-x-1">
                   <User />
@@ -119,9 +119,9 @@ return(
           </div>
 
           {/* News Card 3 */}
-          <div className="bg-white  shadow-md overflow-hidden border border-gray-200">
+          <div className="bg-white md:col-span-1   shadow-md overflow-hidden border border-gray-200">
             <div className="w-full h-48 bg-[#D9D9D9]">
-              {/* Placeholder for image */}
+
             </div>
             <div className="p-6">
               <div className="flex items-center space-x-4 text-sm text-gray-600 mb-3">
