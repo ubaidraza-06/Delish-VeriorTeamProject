@@ -1,5 +1,6 @@
 import React from 'react'
 import vector from '../assets/discovervector.png'
+import { ArrowRight } from 'lucide-react';
  const menuItems = [
     {
       title: "Wild Mushroom Arancini",
@@ -55,7 +56,7 @@ import vector from '../assets/discovervector.png'
 
 const Discover = () => {
   return (<>
-     <section className="bg-gray-800 text-white py-20 px-4 text-center">
+     <section className="bg-[#2B2B2B] text-white py-20 px-4 text-center">
       <div className="container mx-auto">
      
         <p className="text-orange-600 uppercase text-sm font-semibold mb-4">CRISPY, EVERY BITE TASTE</p>
@@ -64,9 +65,8 @@ const Discover = () => {
         </h2>
         <button className="bg-transparent border border-white text-white px-6 py-3  flex items-center justify-center mx-auto hover:bg-white hover:text-gray-800 transition-colors duration-300">
           READ MORE
-          <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-          </svg>
+          <span className='text-white w-8 h-[1px] ml-[5px] bg-white'></span>
+         <ArrowRight className='h-5 '/>
         </button>
       </div>
     </section>

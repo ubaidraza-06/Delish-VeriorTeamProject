@@ -2,20 +2,7 @@ import React from 'react'
 import { Star } from 'lucide-react';
 const Card = ({title,description, price, rating, buttonText, showStars, showButton}) => {
   return (
-    // <div className="bg-white shadow-md text-center border border-gray-200">
-     
-    //   <div className="bg-[#D9D9D9] h-32 w-full flex items-center justify-center">
-        
-    //   </div>
-      
-    //   <div className='p-6'>
-    //     <h3 className="text-xl font-bold mb-2 text-gray-800">{title}</h3>
-    //     <p className="text-gray-600 mb-4 text-sm">{description}</p>
-        // <button className="text-red-500 font-semibold text-sm hover:underline">
-        //   BOOK A TABLE
-        // </button>
-    //   </div>
-    // </div>
+  
  <div className="bg-white shadow-md text-center border border-gray-200 rounded overflow-hidden">
       
       {/* Placeholder Image Box */}

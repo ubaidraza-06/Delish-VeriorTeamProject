@@ -34,12 +34,12 @@ const HomethreeReview = () => {
           <span className="block w-2 h-2 bg-[#CB3A1A] rounded-full"></span>
         </div>
 
-        {/* Testimonial Cards Container */}
+ 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Testimonial Card 1 */}
           <div className="bg-white rounded-lg shadow-lg p-6 text-left flex flex-col">
             <div className="flex items-center space-x-4 mb-4">
-              {/* Placeholder for image/avatar */}
+              {/* Placeholder */}
               <div className="w-[100px] h-[100px]  max-sm:h-full bg-gray-200  flex-shrink-0"></div>
               <p className="text-gray-700 text-base leading-relaxed flex-grow">
                 The scallops were perfectly cooked, tender, and flavorful, paired beautifully with a creamy risotto and seasonal vegetables. The presentation was artful, showcasing the chef's attention to detail. highly recommend it for anyone looking for a memorable dining experience.
@@ -56,15 +56,15 @@ const HomethreeReview = () => {
               </div>
               {/* Name and Title */}
               <div className="flex flex-col items-end">
-                <h3 className="text-lg font-semibold text-gray-900 uppercase">KUMAN TUNMAN</h3>
+                <h3 className="text-lg font-semibold max-sm:text-sm text-gray-900 uppercase">KUMAN TUNMAN</h3>
                 <p className="text-sm text-gray-900">WAITER</p>
               </div>
               {/* Quote icon */}
-              <div className="text-[#CB3A1A] text-7xl font-bold ml-4">”</div>
+              <div className="text-[#CB3A1A] text-7xl max-sm:text-5xl font-bold ml-4">”</div>
             </div>
           </div>
 
-          {/* Testimonial Card 2 (Duplicate for layout) */}
+          {/* Testimonial Card 2  */}
           <div className="bg-white rounded-lg shadow-lg p-6 text-left flex flex-col">
             <div className="flex items-center space-x-4 mb-4">
               {/* Placeholder for image/avatar */}
@@ -84,11 +84,11 @@ const HomethreeReview = () => {
               </div>
               {/* Name and Title */}
               <div className="flex flex-col items-end">
-                <h3 className="text-lg font-semibold text-gray-900 uppercase">MADISON OLIVIA</h3>
+                <h3 className="text-lg font-semibold text-gray-900 max-sm:text-sm uppercase">MADISON OLIVIA</h3>
                 <p className="text-sm text-gray-900">WAITER</p>
               </div>
               {/* Quote icon */}
-              <div className="text-[#CB3A1A] text-7xl font-bold ml-4">”</div>
+              <div className="text-[#CB3A1A] text-7xl max-sm:text-5xl font-bold ml-4">”</div>
             </div>
           </div>
         </div>

@@ -42,7 +42,7 @@ const PagethreeMenu = () => {
       {/* Tabs */}
       <div className='max-sm:hidden'>
       <img
-        src={pic1} // Replace with your actual circular pattern image
+        src={pic1} 
         alt="Background Pattern"
         className="absolute top-20 left-10   z-0"
       />

@@ -4,11 +4,11 @@ import bg from '../assets/bg.png'
 const TrustedSection = () => {
   return (<>
      <section className="relative w-full min-h-screen   bg-black overflow-hidden flex items-center justify-center"  style={{ backgroundImage: `url(${bg})` }}>
-      {/* Orange background box behind the card */}
+
       <div className="absolute bottom-0 w-full h-1/2 max-sm:hidden bg-[#CB3A1A] z-0" />
 
       {/* White card container */}
-      <div className="relative z-10 text-start bg-white max-sm:w-[200px] border border-dashed border-gray-300 shadow-lg max-w-2xl w-full mr-[200px] mx-4 p-8 md:p-12">
+      <div className="relative z-10 text-start bg-white max-sm:mr-[100px] border border-dashed border-gray-300 shadow-lg max-w-2xl w-full mr-[200px] mx-4 p-8 md:p-12">
         <button className="bg-red-600 text-white text-xs px-4 py-1  mb-4 font-semibold">
           MAKE RESERVATION
         </button>
