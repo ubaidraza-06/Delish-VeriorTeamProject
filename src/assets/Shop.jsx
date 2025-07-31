@@ -18,16 +18,24 @@ const products = [
 export default function Shop() {
   return (
     <div className="bg-[#F8F8F8] font-[Jost] text-[#111]">
-      {/* Header Section */}
+
       <div className="bg-[#74787C] text-white py-16 relative flex flex-col items-center w-full">
   <h1 className="m-0 text-center text-4xl font-bold z-10 tracking-wide">SHOP PAGE</h1>
   <p className="m-0 text-center text-xs text-gray-400 z-10 tracking-wider uppercase">HOME / SHOP PAGE</p>
-  <h1 className="m-0 text-[80px] font-extrabold text-white opacity-10 select-none pointer-events-none tracking-widest">
+  <h1 
+    className="mt-12 text-[80px] font-bold select-none pointer-events-none tracking-widest"
+    style={{
+      WebkitTextStroke: '2px white',        
+      color: 'transparent',                 
+      WebkitBackgroundClip: 'text',         
+      backgroundClip: 'text',               
+      marginTop: '2rem',                    
+    }}
+  >
     OUR SHOP PAGE
   </h1>
 </div>
 
-      {/* Product Grid */}
       <div className="px-4 sm:px-6 md:px-10 lg:px-20 py-20">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
           {products.map((product, idx) => (

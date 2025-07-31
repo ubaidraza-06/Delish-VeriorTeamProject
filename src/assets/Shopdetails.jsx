@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+
 export default function Shopdetails() {
   const [value, setValue] = useState(1);
 
@@ -16,11 +17,19 @@ export default function Shopdetails() {
   <div className="bg-[#74787C] text-white py-16 relative flex flex-col items-center w-full">
   <h1 className="m-0 text-center text-4xl font-bold z-10 tracking-wide">SHOP DETAILS</h1>
   <p className="m-0 text-center text-xs text-gray-400 z-10 tracking-wider uppercase">HOME / SHOP DETAILS</p>
+  
   <h1 
-  className="mt- text-[80px] font-bold text-white opacity-10 select-none pointer-events-none tracking-widest"
->
-  SHOP DETAILS
-</h1>
+    className="mt-12 text-[80px] font-bold select-none pointer-events-none tracking-widest"
+    style={{
+      WebkitTextStroke: '2px white',        
+      color: 'transparent',                 
+      WebkitBackgroundClip: 'text',         
+      backgroundClip: 'text',               
+      marginTop: '2rem',                    
+    }}
+  >
+    SHOP DETAILS
+  </h1>
 
 
 </div>
