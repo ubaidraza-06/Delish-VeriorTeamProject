@@ -1,11 +1,18 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+// tailwind.config.js
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}", // Tells Tailwind to scan your React component files
+    "./public/index.html",        // Optional, but good if you have styles there
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'main-color': '#CB3A1A', 
+      },
+      fontFamily: {
+        poppins: ['Jost', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
