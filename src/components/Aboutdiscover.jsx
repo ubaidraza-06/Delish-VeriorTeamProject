@@ -55,7 +55,6 @@ const CategorySection = () => {
             </p>
           </div>
         </div>
-       <Bottom/>
       </div>
     </div>
   );
