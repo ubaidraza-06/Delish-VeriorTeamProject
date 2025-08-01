@@ -6,34 +6,30 @@ import CTABanner from './components/CTABanner.jsx';
 import Team from './pages/Team.jsx';
 import TeamDetails from './pages/TeamDetails.jsx';
 import Reservations from './pages/Reservations.jsx';
-import Shop from './assets/Shop'
-import Shopdetails from './assets/Shopdetails'
-import Menu from './assets/Menu'
+import Shop from './pages/Shop.jsx';
+import Shopdetails from './pages/Shopdetails.jsx';
+import Menu from './pages/Menu.jsx';
 import './App.css'
 
 function App() {
-  <div className="min-h-screen bg-white">
-        <Header />
-        <main>
-          <Routes>
-            <Route path="/" element={<Team />} />
-            <Route path="/team" element={<Team />} />
-            <Route path="/team-details" element={<TeamDetails />} />
-            <Route path="/reservations" element={<Reservations />} />
-          </Routes>
-        </main>
-        <CTABanner />
-        <Footer />
-      </div>
-    );
-  }
   return (
-    <>
-      <Menu />
-      {/* <Shop /> */}
-      {/* <Shopdetails /> */}
-    </>
-  )
+    <div className="min-h-screen bg-white">
+      <Header />
+      <main>
+        <Routes>
+          <Route path="/" element={<Team />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/team-details" element={<TeamDetails />} />
+          <Route path="/reservations" element={<Reservations />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/shop-details" element={<Shopdetails />} />
+          <Route path="/menu" element={<Menu />} />
+        </Routes>
+      </main>
+      <CTABanner />
+      <Footer />
+    </div>
+  );
 }
 
 export default App
