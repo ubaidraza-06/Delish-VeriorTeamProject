@@ -2,21 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: 'Jost', sans-serif;
-  padding: 0;
-  margin: 0;
-}
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @layer base {
   html {
     font-family: 'Jost', sans-serif;
   }
   
   body {
+    overflow-x: hidden;
     margin: 0;
     font-family: 'Jost', sans-serif;
     -webkit-font-smoothing: antialiased;
