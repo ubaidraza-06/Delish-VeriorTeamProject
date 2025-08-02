@@ -1,23 +1,23 @@
-import { default as buffet, default as party, default as wedding } from '../assets/servicebg.png';
+import servicebg from '../assets/servicebg.png';
 import leaf from '../assets/serviceleaf.png';
 import veg from '../assets/servicevegimg.png';
 
 const services = [
   {
     title: 'WEDDING SERVICE',
-    img: wedding,
+    img: servicebg,
     desc: 'The chocolate fondant which did not disappoint! It was rich and indulgent, with a gooey center that was pure bliss.',
     btn: 'READ MORE',
   },
   {
     title: 'BUFFET SERVICE',
-    img: buffet,
+    img: servicebg,
     desc: 'Assertively myocardinate robust e-tailers for extensible human capital. Appropriately benchmark networks.',
     btn: 'READ MORE',
   },
   {
     title: 'PARTY SERVICE',
-    img: party,
+    img: servicebg,
     desc: 'Assertively myocardinate robust e-tailers for extensible human capital. Appropriately benchmark networks.',
     btn: 'READ MORE',
   },

@@ -1,5 +1,5 @@
 import React from 'react'
-import Intro from '../components/intro'
+import Intro from '../components/Intro'
 import AboutFront from '../components/AboutFront'
 import AboutFood from '../components/AboutFood'
 import Aboutdiscover from '../components/Aboutdiscover'

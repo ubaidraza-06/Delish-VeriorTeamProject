@@ -2,7 +2,7 @@ import React from 'react';
 import burger from '../assets/burgerhome.png'
 import check from '../assets/check.png'
 import book from '../assets/book.png'
-import union from '../assets/union.png'
+import union from '../assets/Union.png'
 const AboutFront = () => {
   return (
     <div className="flex  justify-center items-center  min-h-screen bg-white py-16 ">
