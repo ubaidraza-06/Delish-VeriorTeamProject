@@ -18,10 +18,10 @@ const HomeThree = () => {
     
       <HomethreeNav/>
 
-      <section className="relative w-full flex items-start justify-center overflow-hidden pb-16">
+      <section className="w-full flex items-start justify-center overflow-hidden pb-16">
 <img src={vector} className='max-md:w-[100px]' alt="" />
         
-        <div className="container  relative z-20 flex flex-col md:flex-row items-start justify-between">
+        <div className="container z- flex flex-col md:flex-row items-start justify-between">
           <div className="md:w-1/2 ml-5 text-center md:text-left pt-20 md:pt-40 pr-0 md:pr-10">
             <p className="text-white text-sm uppercase tracking-wider mb-2">
               We serve food, harmony, & laughter since 1998
