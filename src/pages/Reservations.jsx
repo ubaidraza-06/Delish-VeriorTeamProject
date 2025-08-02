@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import reservationImg from '../assets/reservation.png';
+import reservationImg from '../assets/Reservation.png';
 
 const Reservations = () => {
   const [formData, setFormData] = useState({
