@@ -63,8 +63,8 @@ const Blog = () => {
         <div className="lg:col-span-2 flex flex-col gap-10">
           {blogPosts.map((post) => (
             <div key={post.id} className="border border-[#D9D9D9]">
-              <div className="bg-[#D9D9D9] h-[250px] relative">
-                <span className="absolute top-3 left-3 bg-[#d42f2f] text-white text-xs px-3 py-1 font-semibold">
+              <div className="bg-[#D9D9D9] h-[250px]">
+                <span className="absolute top-[550px] left-[200px] bg-[#d42f2f] text-white text-xs px-3 py-1 font-semibold">
                   {post.category}
                 </span>
               </div>

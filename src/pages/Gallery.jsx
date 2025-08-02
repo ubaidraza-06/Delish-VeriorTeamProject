@@ -10,7 +10,7 @@ const Gallery = () => {
   const galleryItems = Array.from({ length: 6 });
 
   return (
-    <div className="bg-[#FAFAFA] text-[#1D1D1D] relative overflow-hidden">
+    <div className="bg-[#FAFAFA] text-[#1D1D1D] overflow-hidden">
       {/* Top Section */}
       <div className="bg-[#383838] py-20 text-center text-white">
         <h1 className="text-4xl font-bold">GALLERY PAGE</h1>

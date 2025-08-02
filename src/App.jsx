@@ -13,13 +13,17 @@ import Shop from './pages/Shop.jsx';
 import Shopdetails from './pages/Shopdetails.jsx';
 import Menu from './pages/Menu.jsx';
 import HomePageOne from './pages/HomePageOne';
+import HomePageTwo from './pages/HomePageTwo.jsx';
+import Gallery from './pages/Gallery.jsx';
+import Blog from './pages/Blog.jsx';
+import BlogDetails from './pages/BlogDetails.jsx';
 import './App.css';
 
 // Component to conditionally render Header based on route
 const ConditionalHeader = () => {
   const location = useLocation();
-  const isHomePage = location.pathname === '/' || location.pathname === '/home';
-  
+  const isHomePage = location.pathname === '/';
+
   // Don't render Header on home page since HomeThree has its own navigation
   if (isHomePage) {
     return null;
@@ -35,9 +39,9 @@ function App() {
         <ConditionalHeader />
         <main>
           <Routes>
-            <Route path="/" element={<HomeThree />} />
-            <Route path="/home" element={<HomeThree />} />
-            <Route path="/homepage-one" element={<HomePageOne />} />
+            <Route path="/" element={<HomePageOne />} />
+            <Route path="/homepage-three" element={<HomeThree />} />
+            <Route path="/homepage-two" element={<HomePageTwo />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/team" element={<Team />} />
@@ -46,6 +50,9 @@ function App() {
             <Route path="/shop" element={<Shop />} />
             <Route path="/shop-details" element={<Shopdetails />} />
             <Route path="/menu" element={<Menu />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog-details" element={<BlogDetails />} />
           </Routes>
         </main>
         <CTABanner />

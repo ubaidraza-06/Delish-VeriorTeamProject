@@ -131,7 +131,6 @@ const OfficeInformation = () => {
         </form>
       </div>
     </div>
-    <Bottom/>
     </>
   );
 };

@@ -9,11 +9,12 @@ import PopularFastFoodSection from '../components/PopularFastFoodSection';
 import ReservationSection from '../components/ReservationSection';
 import ServiceSection from '../components/ServiceSection';
 import WelcomeSection from '../components/WelcomeSection';
-
+import Header from '../components/Header';
 const HomePageOne = () => {
   return (
     <div className="bg-[#111111] min-h-screen">
       
+      <Header />
       <Hero />
       <WelcomeSection />
       <ServiceSection />

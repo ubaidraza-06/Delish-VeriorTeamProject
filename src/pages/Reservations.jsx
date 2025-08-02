@@ -44,7 +44,7 @@ const Reservations = () => {
         <img
           src={reservationImg}
           alt="Reservation Hero"
-          className="pl-64 opacity-50 mt-12"
+          className="pl-40 pr-40 opacity-50 mt-12"
         />
       </div>
 

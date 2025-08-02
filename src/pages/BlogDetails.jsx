@@ -24,7 +24,7 @@ const BlogDetails = () => {
         {/* Blog Main Content */}
         <div className="lg:col-span-2">
           {/* Gray Background Banner */}
-          <div className="bg-[#D9D9D9] h-[250px] flex items-center justify-center relative mb-6">
+          <div className="bg-[#D9D9D9] h-[250px] flex items-center justify-center mb-6">
            
           </div>
 

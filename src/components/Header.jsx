@@ -58,20 +58,48 @@ const Header = () => {
                   </svg>
                 </button>
                 {isHomeDropdownOpen && (
-                  <div className="absolute top-full left-0 mt-2 w-48 bg-white text-black rounded shadow-lg z-20">
+                  <div className="absolute top-full left-0 mt-2 w-48 bg-white text-black rounded shadow-lg z-[999]">
                     <Link
-                      to="/"
+                      to="/homepage-two"
                       className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"
                       onClick={() => setIsHomeDropdownOpen(false)}
                     >
-                      Our chef
+                      Home Page Two
+                    </Link>
+                    <Link
+                      to="/homepage-three"
+                      className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"
+                      onClick={() => setIsHomeDropdownOpen(false)}
+                    >
+                      Home Page Three
+                    </Link>
+                    <Link
+                      to="/about"
+                      className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"
+                      onClick={() => setIsHomeDropdownOpen(false)}
+                    >
+                      About Us
+                    </Link>
+                    <Link
+                      to="/contact"
+                      className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"
+                      onClick={() => setIsHomeDropdownOpen(false)}
+                    >
+                      Contact Us
+                    </Link>
+                    <Link
+                      to="/team"
+                      className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"
+                      onClick={() => setIsHomeDropdownOpen(false)}
+                    >
+                      Our Team
                     </Link>
                     <Link
                       to="/team-details"
                       className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"
                       onClick={() => setIsHomeDropdownOpen(false)}
                     >
-                      Chef Details
+                      Team Details
                     </Link>
                     <Link
                       to="/reservations"
@@ -79,6 +107,48 @@ const Header = () => {
                       onClick={() => setIsHomeDropdownOpen(false)}
                     >
                       Book a Table
+                    </Link>
+                    <Link
+                      to="/blog"
+                      className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"
+                      onClick={() => setIsHomeDropdownOpen(false)}
+                    >
+                      Blog
+                    </Link>
+                    <Link
+                      to="/blog-details"
+                      className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"
+                      onClick={() => setIsHomeDropdownOpen(false)}
+                    >
+                      Blog Details
+                    </Link>
+                    <Link
+                      to="/gallery"
+                      className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"
+                      onClick={() => setIsHomeDropdownOpen(false)}
+                    >
+                      Gallery
+                    </Link>
+                    <Link
+                      to="/menu"
+                      className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"
+                      onClick={() => setIsHomeDropdownOpen(false)}
+                    >
+                      Menu
+                    </Link>
+                    <Link
+                      to="/shop"
+                      className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"
+                      onClick={() => setIsHomeDropdownOpen(false)}
+                    >
+                      Shop
+                    </Link>
+                    <Link
+                      to="/shop-details"
+                      className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"
+                      onClick={() => setIsHomeDropdownOpen(false)}
+                    >
+                      Shop Details
                     </Link>
                   </div>
                 )}

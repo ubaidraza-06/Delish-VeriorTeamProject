@@ -14,7 +14,7 @@ export default function Shopdetails() {
   return (
     <div className="bg-white font-[Jost] text-[#111] w-full">
   
-  <div className="bg-[#74787C] text-white py-16 relative flex flex-col items-center w-full">
+  <div className="bg-[#74787C] text-white py-16 flex flex-col items-center w-full">
   <h1 className="m-0 text-center text-4xl font-bold z-10 tracking-wide">SHOP DETAILS</h1>
   <p className="m-0 text-center text-xs text-gray-400 z-10 tracking-wider uppercase">HOME / SHOP DETAILS</p>
   
@@ -38,8 +38,8 @@ export default function Shopdetails() {
   <div className="w-full py-16 px-4 md:px-6 lg:px-10">
     <div className="flex flex-col lg:flex-row gap-12 w-full">
       
-      <div className="flex-1 bg-[#E5E5E5] h-96 relative">
-        <span className="absolute top-4 left-4 bg-[#E2572E] text-white text-xs px-3 py-1 rounded-full">SALE</span>
+      <div className="flex-1 bg-[#E5E5E5] h-96">
+        <span className="absolute top-[560px] left-[200px] bg-[#E2572E] text-white text-xs px-3 py-1 rounded-full">SALE</span>
       </div>
 
       

@@ -19,7 +19,7 @@ export default function Shop() {
   return (
     <div className="bg-[#F8F8F8] font-[Jost] text-[#111]">
 
-      <div className="bg-[#74787C] text-white py-16 relative flex flex-col items-center w-full">
+      <div className="bg-[#74787C] text-white py-16 flex flex-col items-center w-full">
   <h1 className="m-0 text-center text-4xl font-bold z-10 tracking-wide">SHOP PAGE</h1>
   <p className="m-0 text-center text-xs text-gray-400 z-10 tracking-wider uppercase">HOME / SHOP PAGE</p>
   <h1 
